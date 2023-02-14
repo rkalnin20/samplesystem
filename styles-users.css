@@ -1,0 +1,20 @@
+.action-edit{
+    background-color: blue;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+.action-delete{
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.action-back{
+    background-color: orange;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+}
