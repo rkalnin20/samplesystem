@@ -31,7 +31,7 @@
                             <tr>
                                 <td align="center">         
                                     <a class="action-edit" href="http://localhost/test/edit-form.php?id=<?php echo $table_list['UserID']; ?>">Edit</a>
-                                    <a class="action-delete" href="http://localhost/test/delete.php?id=<?php echo $table_list['UserID']; ?>">Delete</a>
+                                    <a class="action-delete" href="http://localhost/test/delete.php?id=<?php echo $table_list['UserID']; ?>" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
                                 </td>
                                 <td ><?php echo $table_list['user_name']; ?></td>
                                 <td ><?php echo $table_list['device']; ?></td>
